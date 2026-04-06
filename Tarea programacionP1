@@ -7,4 +7,17 @@ int main() {
     int opcion, cantidadVenta, cantidadAgregar;
     float total;
 
+    printf(" Registro del producto \n");
+    printf("Ingrese el codigo del producto: ");
+    scanf("%d", &codigo);
+
+    printf("Ingrese el nombre del producto: ");
+    scanf("%s", nombre);
+
+    printf("Ingrese el stock inicial: ");
+    scanf("%d", &stock);
+
+    printf("Ingrese el precio unitario: ");
+    scanf("%f", &precio);
+
     

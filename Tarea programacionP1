@@ -62,4 +62,8 @@ int main() {
                 printf("Stock: %d\n", stock);
                 break;
 
+            case 4:
+                printf("Ganancias: %.2f\n", ganancias);
+                break;
+
             

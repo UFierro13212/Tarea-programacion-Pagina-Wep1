@@ -55,4 +55,11 @@ int main() {
                 printf("Stock actual: %d\n", stock);
                 break;
 
-           
+            case 3:
+                printf("Codigo: %d\n", codigo);
+                printf("Nombre: %s\n", nombre);
+                printf("Precio: %.2f\n", precio);
+                printf("Stock: %d\n", stock);
+                break;
+
+            

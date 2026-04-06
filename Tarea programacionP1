@@ -1,2 +1,10 @@
 #include <stdio.h>
 
+int main() {
+    int codigo, stock = 0;
+    char nombre[50];
+    float precio, ganancias = 0;
+    int opcion, cantidadVenta, cantidadAgregar;
+    float total;
+
+    

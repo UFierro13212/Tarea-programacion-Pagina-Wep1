@@ -47,4 +47,12 @@ int main() {
                 }
                 break;
 
-            
+            case 2:
+                printf("Cantidad a agregar: ");
+                scanf("%d", &cantidadAgregar);
+
+                stock += cantidadAgregar;
+                printf("Stock actual: %d\n", stock);
+                break;
+
+           

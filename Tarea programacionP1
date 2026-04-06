@@ -30,3 +30,21 @@ int main() {
         printf("Opcion: ");
         scanf("%d", &opcion);
 
+        switch(opcion) {
+            case 1:
+                printf("Cantidad a vender: ");
+                scanf("%d", &cantidadVenta);
+
+                if (cantidadVenta > stock) {
+                    printf("No hay suficiente stock\n");
+                } else {
+                    total = cantidadVenta * precio;
+                    stock -= cantidadVenta;
+                    ganancias += total;
+
+                    printf("Venta realizada\n");
+                    printf("Total: %.2f\n", total);
+                }
+                break;
+
+            

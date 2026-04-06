@@ -7,7 +7,7 @@ int main() {
     int opcion, cantidadVenta, cantidadAgregar;
     float total;
 
-    printf(" Registro del producto \n");
+    printf("--- Registro del producto ---\n");
     printf("Ingrese el codigo del producto: ");
     scanf("%d", &codigo);
 
@@ -20,4 +20,13 @@ int main() {
     printf("Ingrese el precio unitario: ");
     scanf("%f", &precio);
 
-    
+    do {
+        printf(" Menu (%s) \n", nombre);
+        printf("1. Vender\n");
+        printf("2. Reabastecer\n");
+        printf("3. Ver producto\n");
+        printf("4. Ver ganancias\n");
+        printf("5. Salir\n");
+        printf("Opcion: ");
+        scanf("%d", &opcion);
+

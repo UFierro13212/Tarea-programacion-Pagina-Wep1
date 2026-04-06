@@ -70,4 +70,11 @@ int main() {
                 printf("Saliendo...\n");
                 break;
 
-            
+            default:
+                printf("Opcion invalida\n");
+        }
+
+    } while(opcion != 5);
+
+    return 0;
+}
